@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=US-ASCII"
+	pageEncoding="US-ASCII"%>
+<%@ page import="java.util.*"%>
+<%@ page import="com.javadw.model.*"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+<head>
+<title>Articles | JavaDoc World</title>
+<link rel="shortcut icon" type="image/x-icon"
+	href="${pageContext.request.contextPath}/images/title_icon.png" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Stack Trace" />
+<meta name="keywords"
+	content="Java Articles, java errrors, java exception, java collections, java examples, java programs, java code, java question, java answer, java algorithm, java practice">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="${pageContext.request.contextPath}/css/articles/style.css" rel="stylesheet" type="text/css">
+<script async
+	src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</head>
+<body>
+	<div id="container">
+		<jsp:include page="header.jsp" />
+		<div id="site-content">
+			<div id="content-left">
+				<jsp:include page="left_menu.html" />
+			</div>
+			<div id="content-right">
+				<div id="sub-content-left-main">
+					<div style="text-align: center;">
+					</div>
+					<div id="interview_qn_ans">
+					
+						<div id="core-java">
+						<jsp:include page="top_add.html" />
+						<div style="padding: 2px;font-family: erdana, helvetica, arial, sans-serif; font-size: 20px; color: #444; ">Recent Articles  </div>
+							<c:forEach items="${stList}" var="qa">
+							<hr class="style-light">
+								<div id="div-question-answer">
+									<div id="div-question-all">
+										<div><a	href="java_articles/ART${qa.id}" escapeXml="false" /><c:out
+												value="${qa.question}" escapeXml="false" /></a><div id="div-question-user" style="text-align: right; float: right;"> Date:
+											<c:out value="${qa.date}" escapeXml="false" /></div></div>
+										<div id="div-question-user">
+											<i>Posted by <span font-size: 12px; style="color: #666;  padding: 2px;">  
+											<b><c:out value="${qa.submittedBy}" escapeXml="false" /></b></span> |</i> 
+											<span style="color: #333; background-color: #eff0f1; padding: 2px;">
+												<c:out value="${qa.category}" escapeXml="false" />
+											</span>
+
+										</div>
+									</div>
+									
+								</div>
+								
+							</c:forEach>
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- auto-link -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6274485334555977"
+     data-ad-slot="6330265648"
+     data-ad-format="link"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+						</div>
+						<br />
+						
+						<div style="padding: 10px;">
+							<div id="disqus_thread"></div>
+							<script>
+								/**
+								 * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+								 * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+								 */
+
+								var disqus_config = function() {
+									this.page.url = "http://www.javadocworld.com/stackTrace"; // Replace PAGE_URL with your page's canonical URL variable
+									this.page.identifier = "coreJava"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+								};
+								(function() { // DON'T EDIT BELOW THIS LINE
+									var d = document, s = d
+											.createElement('script');
+
+									s.src = '//javadocworld.disqus.com/embed.js';
+
+									s.setAttribute('data-timestamp',
+											+new Date());
+									(d.head || d.body).appendChild(s);
+								})();
+							</script>
+
+						</div>
+					</div>
+				</div>
+				<div id="sub-content-right-main">
+					<jsp:include page="contentRightStackTrace.jsp" />
+				</div>
+			</div>
+		</div>
+		<jsp:include page="footer.jsp" />
+	</div>
+</body>
+</html>

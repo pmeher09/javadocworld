@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Java DocWorld</title>
+	<link href="http://www.javadocworld.com" />
+	<updated>2015-11-16</updated>
+	<author>
+		<name>Pradeep Mishra</name>
+	</author>
+	<entry>
+		<title>Core Java Examples</title>
+		<link href="http://www.javadocworld.com/coreJava" />
+		<updated>2015-11-16</updated>
+		<summary>Core Java examples with output. All the source code added
+			here are compiled and tested.
+		</summary>
+	</entry>
+
+	<entry>
+		<title>Best Java Books</title>
+		<link href="http://www.javadocworld.com/javaBooks" />
+		<updated>2015-11-16</updated>
+		<summary>Top 5 Java books</summary>
+	</entry>
+
+	<entry>
+		<title>Java questions and answers</title>
+		<link href="http://www.javadocworld.com/questionAnswers" />
+		<updated>2015-11-16</updated>
+		<summary>Java Questions and answers for interview</summary>
+	</entry>
+
+	<entry>
+		<title>Java Collections Examples</title>
+		<link href="http://www.javadocworld.com/javaCollections" />
+		<updated>2015-11-16</updated>
+		<summary>Example of ArrayList, LinkedList, Vector, HashSet,
+			LinkedHashSet, TreeSet, HashMap, LinkedHashMap, TreeMap, Comparable,
+			Comparator, Iterator etc
+		</summary>
+	</entry>
+
+	<entry>
+		<title>ArrayList Example in Java</title>
+		<link href="http://www.javadocworld.com/arrayListExample" />
+		<updated>2015-11-16</updated>
+		<summary>Example - how to crate a ArrayList and most commonly used
+			methods of ArrayList</summary>
+	</entry>
+
+
+	<entry>
+		<title>LinkedList Example in Java</title>
+		<link href="http://www.javadocworld.com/linkedListExample" />
+		<updated>2015-11-16</updated>
+		<summary>Example - how to crate a LinkedList and most commonly used
+			methods of LinkedList</summary>
+	</entry>
+
+	<entry>
+		<title>Vector Example in Java</title>
+		<link href="http://www.javadocworld.com/vectorExample" />
+		<updated>2015-11-16</updated>
+		<summary>Example - how to crate a Vector and most commonly used
+			methods of Vector</summary>
+	</entry>
+
+	<entry>
+		<title>LinkedHashSet Example in Java</title>
+		<link href="http://www.javadocworld.com/linkedHashSetExamplep" />
+		<updated>2015-11-16</updated>
+		<summary>Example - how to crate a LinkedHashSet and most commonly used
+			methods of LinkedHashSet</summary>
+	</entry>
+
+
+	<entry>
+		<title>HashSet Example in Java</title>
+		<link href="http://www.javadocworld.com/hashSetExample" />
+		<updated>2015-11-16</updated>
+		<summary>Example - how to crate a HashSet and most commonly used
+			methods of HashSet</summary>
+	</entry>
+
+	<entry>
+		<title>TreeSet Example in Java</title>
+		<link href="http://www.javadocworld.com/treeSetExample" />
+		<updated>2015-11-16</updated>
+		<summary>Example - how to crate a TreeSet and most commonly used
+			methods of TreeSet</summary>
+	</entry>
+
+	<entry>
+		<title>HashMap Example in Java</title>
+		<link href="http://www.javadocworld.com/hashMapExample" />
+		<updated>2015-11-16</updated>
+		<summary>Example - how to crate a HashMap and most commonly used
+			methods of HashMap</summary>
+	</entry>
+
+	<entry>
+		<title>TreeMap Example in Java</title>
+		<link href="http://www.javadocworld.com/treeMapExample" />
+		<updated>2015-11-16</updated>
+		<summary>Example - how to crate a TreeMap and most commonly used
+			methods of TreeMap</summary>
+	</entry>
+
+	<entry>
+		<title>LinkedHashMap Example in Java</title>
+		<link href="http://www.javadocworld.com/linkedHashMapExample" />
+		<updated>2015-11-16</updated>
+		<summary>Example - how to crate a LinkedHashMap and most commonly used
+			methods of LinkedHashMap</summary>
+	</entry>
+
+	<entry>
+		<title>Comparator Example in Java</title>
+		<link href="http://www.javadocworld.com/comparatorExample" />
+		<updated>2015-11-16</updated>
+		<summary>Example - Comparator</summary>
+	</entry>
+	<entry>
+		<title>Comparable Example in Java</title>
+		<link href="http://www.javadocworld.com/comparableExample" />
+		<updated>2015-11-16</updated>
+		<summary>Example - Comparable </summary>
+	</entry>
+	<entry>
+		<title>ReadOnly List Example in Java</title>
+		<link href="http://www.javadocworld.com/readOnlyList" />
+		<updated>2015-11-16</updated>
+		<summary>Example - How to crate a readOnlyList in Java</summary>
+	</entry>
+
+	<entry>
+		<title>Decimal to Binary conversion in Java</title>
+		<link href="http://www.javadocworld.com/decimalToBinaryExample.jsp" />
+		<updated>2015-11-16</updated>
+		<summary>Example - how to convert from decimal to binary</summary>
+	</entry>
+	<entry>
+		<title>DAO design pattern in Java</title>
+		<link href="http://www.javadocworld.com/daoDesignPatternExamples" />
+		<updated>2015-11-16</updated>
+		<summary>Example - DAO design pattern in Java with Examples</summary>
+	</entry>
+	<entry>
+		<title>Enum Example in Java</title>
+		<link href="http://www.javadocworld.com/enumExample" />
+		<updated>2015-11-16</updated>
+		<summary>Example - Learn enum in Java</summary>
+	</entry>
+	
+	<entry>
+		<title>New Features in Java7 with Example</title>
+		<link href="http://www.javadocworld.com/java7Features" />
+		<updated>2015-11-16</updated>
+		<summary>Example - New in java 7</summary>
+	</entry>
+	<entry>
+		<title>Builder Design Pattern in java with Example</title>
+		<link href="http://www.javadocworld.com/builderDesignPattern" />
+		<updated>2016-2-27</updated>
+		<summary>Builder Design Pattern in java with Example</summary>
+	</entry>
+		<entry>
+		<title>Cloneable in java with Example</title>
+		<link href="http://www.javadocworld.com/cloneableExample" />
+		<updated>2016-2-27</updated>
+		<summary>Cloneable Interface in Java - Object Cloning</summary>
+	</entry>
+		<entry>
+		<title>Immutable Class Example  in java </title>
+		<link href="http://www.javadocworld.com/immutableClassExample" />
+		<updated>2016-2-27</updated>
+		<summary>Immutable Class Example in Java </summary>
+	</entry>
+	
+</feed>
